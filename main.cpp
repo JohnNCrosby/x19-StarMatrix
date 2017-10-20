@@ -11,9 +11,8 @@ int main()
     vector< vector<char> > star;
 
     //Asking for user input
-    cout<<"Please enter a number for the amount of rows do you want?"<<endl;
+    cout<<"Enter rows and columns of stars:"<<endl;
     cin>>rows;
-    cout<<"Now enter the amount of columns you want?"<<endl;
     cin>>col;
 
     //Seeing if the input meets requirements then filling the parameters with stars
